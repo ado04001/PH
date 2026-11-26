@@ -93,6 +93,7 @@ h2{font-size:30px;margin:0 0 12px}
 .logos img{height:44px;width:auto;filter:grayscale(1);opacity:.8}
 .case{border-left:4px solid var(--accent);padding:4px 0 4px 18px;margin:0 0 24px}
 .team{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;max-width:720px}
+.team .avatar{width:120px;height:120px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-size:40px;font-weight:700}
 .team img{width:120px;height:120px;border-radius:50%;object-fit:cover;background:var(--line)}
 details{border-bottom:1px solid var(--line);padding:14px 0}
 summary{font-weight:700;cursor:pointer}
@@ -135,7 +136,7 @@ footer ul{list-style:none;padding:0;margin:0}
         <li><a href="#tim">Tím</a></li>
         <li><a href="#faq">Otázky</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
-        <li><a href="index_en.html" hreflang="en">EN</a></li>
+        <li><a href="https://prvaholdingova.sk/index_en.html" hreflang="en">EN</a></li>
       </ul>
     </nav>
     <a class="btn" href="#kontakt">Bezplatná konzultácia</a>
@@ -198,12 +199,12 @@ footer ul{list-style:none;padding:0;margin:0}
     </div>
     <!-- Sem doplniť 2–3 krátke prípadové štúdie: situácia → čo sme urobili → výsledok (s číslom) -->
     <div class="logos" aria-label="Klienti a partneri">
-      <img src="images/tuke.png" alt="Technická univerzita v Košiciach – klient Prvej holdingovej" loading="lazy">
-      <img src="images/sopk.png" alt="Slovenská obchodná a priemyselná komora – partner" loading="lazy">
-      <img src="images/universidad.png" alt="Universidad Católica de Valencia – projektový partner" loading="lazy">
-      <img src="images/detinepockaju.png" alt="Projekt Deti nepočkajú!" loading="lazy">
-      <img src="images/elisplus.png" alt="Elis Plus – klient" loading="lazy">
-      <img src="images/skav.png" alt="SKAV – klient" loading="lazy">
+      <img src="https://prvaholdingova.sk/images/tuke.png" alt="Technická univerzita v Košiciach – klient Prvej holdingovej" loading="lazy">
+      <img src="https://prvaholdingova.sk/images/sopk.png" alt="Slovenská obchodná a priemyselná komora – partner" loading="lazy">
+      <img src="https://prvaholdingova.sk/images/universidad.png" alt="Universidad Católica de Valencia – projektový partner" loading="lazy">
+      <img src="https://prvaholdingova.sk/images/detinepockaju.png" alt="Projekt Deti nepočkajú!" loading="lazy">
+      <img src="https://prvaholdingova.sk/images/elisplus.png" alt="Elis Plus – klient" loading="lazy">
+      <img src="https://prvaholdingova.sk/images/skav.png" alt="SKAV – klient" loading="lazy">
     </div>
     <p><a href="referencie/index.html">Všetky referencie a prípadové štúdie →</a></p>
   </div>
@@ -213,7 +214,8 @@ footer ul{list-style:none;padding:0;margin:0}
   <div class="wrap">
     <h2>Kto vám bude radiť</h2>
     <div class="team">
-      <img src="images/adrian-corba.jpg" alt="Adrián Čorba, Prvá holdingová" loading="lazy">
+      <!-- Keď bude fotka: <img src="images/adrian-corba.jpg" alt="Adrián Čorba, Prvá holdingová" loading="lazy"> -->
+      <div class="avatar" aria-hidden="true">AČ</div>
       <div>
         <h3>Adrián Čorba</h3>
         <p><!-- Doplniť: funkcia, roky praxe, kľúčové projekty, odkaz na LinkedIn --> Konzultant pre operatívny, investičný a projektový manažment.</p>
